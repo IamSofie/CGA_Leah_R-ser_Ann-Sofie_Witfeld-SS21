@@ -1,2 +1,4 @@
-package Rendering.MeshLoader;public class Shader {
+package Rendering.MeshLoader;
+
+public class Shader {
 }

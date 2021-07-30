@@ -1,8 +1,6 @@
-package Rendering.MeshLoader;
+package Rendering;
 
-import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWKeyCallback;
-
 import static org.lwjgl.glfw.GLFW.*;
 
 public class Window3DInput extends GLFWKeyCallback {

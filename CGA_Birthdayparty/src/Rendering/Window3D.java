@@ -1,17 +1,14 @@
-package Rendering.MeshLoader;
+package Rendering;
 
-import Rendering.Window3DInput;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
-
 
 import java.util.Objects;
 
 import static java.sql.Types.NULL;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11C.*;
-
 
 
 public class Window3D {
@@ -135,7 +132,8 @@ public class Window3D {
         }
 
          public static void CleanUp(){
-         closeDisplay();
+
+        closeDisplay();
         }
 
         public static void closeDisplay (){
@@ -151,7 +149,9 @@ public class Window3D {
                     )
             ).free();
         }
-   /* public void loop(){
+
+
+        /* public void loop(){
         while (!glfwWindowShouldClose(window)){
             //Poll events
             glfwPollEvents();

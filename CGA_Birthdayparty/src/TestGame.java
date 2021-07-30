@@ -31,9 +31,9 @@ public class TestGame extends CoreBaseGame {
         //create a game object with components and a transform
 
         //add object to the base game
-        AddObject(
-                testMesh
-        );
+        //AddObject(
+        //        testMesh
+        //);
     }
 
 }
