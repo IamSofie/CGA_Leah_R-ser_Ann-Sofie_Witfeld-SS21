@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="glfw-3.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/glfw-3.3.4" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/glfw-3.3.4" />
+    </SOURCES>
+  </library>
+</component>
