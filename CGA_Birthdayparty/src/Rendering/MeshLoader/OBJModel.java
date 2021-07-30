@@ -13,12 +13,12 @@ import java.util.HashMap;
 
 public class OBJModel {
 
-    private ArrayList<vec3> m_vertices;
-    private ArrayList<vec2> m_textures;
-    private ArrayList<vec3> m_normals;
-    private ArrayList<OBJindex> m_indices;
-    private boolean m_hasTextures;
-    private boolean m_hasNormals;
+    private static ArrayList<vec3> m_vertices;
+    private static ArrayList<vec2> m_textures;
+    private static ArrayList<vec3> m_normals;
+    private static ArrayList<OBJindex> m_indices;
+    private static boolean m_hasTextures;
+    private static boolean m_hasNormals;
 
     public OBJModel(String fileName){
         m_vertices = new ArrayList<>();         //initialize variables
@@ -136,7 +136,7 @@ public class OBJModel {
 
     }//end of the constructor
 
-        public IndexModel toIndexModel(){
+        public static IndexModel toIndexModel(){
 
              IndexModel result = new IndexModel();
              IndexModel normalModel = new IndexModel();

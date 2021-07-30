@@ -2,19 +2,16 @@ package Core;
 
 import Rendering.Mesh;
 import Rendering.RenderEngine;
-import org.lwjgl.glfw.GLFWErrorCallback;
-
-
-import static org.lwjgl.glfw.GLFW.*;
-import static org.lwjgl.glfw.GLFW.glfwWindowHint;
 
 public abstract class CoreBaseGame {
 
     private GameObject m_root;
 
-    private Mesh mesh;
+    private Mesh mesh;  //test only
 
-    public void  Init(){}
+    public void  Init(){
+
+    }
 
 
     public void Input(float deltaTime){
@@ -35,9 +32,7 @@ public abstract class CoreBaseGame {
 
     }
 
-    public void AddObject(Mesh mesh){  //test only
-        this.mesh = mesh;
-    }
+
 
     public void SetEngine(CoreEngine engine){
 

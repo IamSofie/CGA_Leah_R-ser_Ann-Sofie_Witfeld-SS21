@@ -1,10 +1,9 @@
 package Core;
-import java.lang.Thread;
 
-import Rendering.MeshLoader.Window3D;
 import Rendering.RenderEngine;
+import Rendering.Window3D;
 
-import static Rendering.MeshLoader.Window3D.DisplayIsOpen;
+//import static Rendering.MeshLoader.Window3D.DisplayIsOpen;
 
 public class CoreEngine extends Window3D {
 
@@ -110,11 +109,10 @@ public class CoreEngine extends Window3D {
 
 
             CleanUp();
+
         }
 
-        private void CleanUp(){
-            closeDisplay();
-        }
+
     }
 
 }
