@@ -1,2 +1,4 @@
-package Components;public class BaseLight {
+package Components;
+
+public class BaseLight {
 }
